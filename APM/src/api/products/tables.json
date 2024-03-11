@@ -1,0 +1,39 @@
+[
+    {
+      "tableName": "Tbl_Main",
+      "isparent": "Yes",
+      "retentionDays": "10995",
+      "Action": "PURGE",
+      "parentTable": "N/A",
+      "classCode": "LNS115",
+      "legalHold": "N/A",
+      "primaryColumn": "CutOffDate",
+      "condition": "N/A"
+    },
+    {
+        "tableName": "loanDetails",
+        "isparent": "No",
+        "retentionDays": "10995",
+        "Action": "PURGE",
+        "parentTable": "Tbl_Main",
+        "classCode": "LNS115",
+        "legalHold": "N/A",
+        "primaryColumn": "CutOffDate",
+        "condition": "N/A",
+        "notes": "test notes"
+      },
+      {
+        "tableName": "tbl_Summary",
+        "isparent": "YES",
+        "retentionDays": "10995",
+        "Action": "PURGE",
+        "notes": "test notes",
+        "parentTable": "N/A",
+        "classCode": "LNS115",
+        "legalHold": "N/A",
+        "primaryColumn": "CutOffDate",
+        "condition": "N/A"
+      } 
+]
+
+  

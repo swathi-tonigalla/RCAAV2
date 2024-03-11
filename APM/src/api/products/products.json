@@ -1,0 +1,43 @@
+[
+  {
+    "appId": 1,
+    "applicationName": "Private Reporting and Remittance",
+    "createDate": "March 19, 2021",
+    "active": "YES",
+    "description": "Leaf rake with 48-inch wooden handle.",
+    "adent": "DTCA_PRIV_XXXX",
+    "starRating": 3.2,
+    "imageUrl": "assets/images/leaf_rake.png"
+  },
+  {
+    "appId": 2,
+    "applicationName": "Post Close Automation",
+    "createDate": "March 18, 2021",
+    "active": "YES",
+    "description": "15 gallon capacity rolling garden cart",
+    "adent": "DTCA_PCA_XXXX",
+    "starRating": 4.2,
+    "imageUrl": "assets/images/garden_cart.png"
+  },
+  {
+    "appId": 5,
+    "applicationName": "Agency Reporting",
+    "createDate": "May 21, 2021",
+    "active": "YES",
+    "description": "Curved claw steel hammer",
+    "adent": "DTCA_PRIV_AGENCY",
+    "starRating": 4.8,
+    "imageUrl": "assets/images/hammer.png"
+  },
+  {
+    "appId": 8,
+    "applicationName": "Ursula Reports",
+    "createDate": "May 15, 2021",
+    "active": "NO",
+    "description": "15-inch steel blade hand saw",
+    "adent": "DTCA_URSULA_XXXX",
+    "starRating": 3.7,
+    "imageUrl": "assets/images/saw.png"
+  }
+  
+]

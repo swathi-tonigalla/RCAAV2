@@ -1,0 +1,49 @@
+<div class='card'>
+    <div class='card-header'>
+      {{pageTitle + ': ' + product?.applicationName}}
+    </div>
+  
+    <div class='card-body'>
+      <div class='row'>
+        <div class='col-md-8'>
+          <div class='row'>
+            <div class='col-md-4'>Application Name:</div>
+            <div class='col-md-8'><input type='text'  /></div>
+          </div>
+          <div class='row'>
+            <div class='col-md-4'>Create Date:</div>
+            <div class='col-md-8'><input type='text' [(ngModel)]="product.createDate"  /></div>
+          </div>
+          
+          <div class='row'>
+            <div class='col-md-4'>active:</div>
+            <div class='col-md-8'><select >
+                <option [value]="true">Yes</option>
+                <option [value]="false">No</option>
+              </select></div>
+          </div>
+          <div class='row'>
+            <div class='col-md-4'>AD-ENT:</div>
+            <div class='col-md-8'><input type='text'  /></div>
+          </div>
+          
+        </div>
+  
+        <div class='col-md-4'>
+          <img class='center-block img-responsive'
+               [style.width.px]='200'
+               [style.margin.px]='2'
+               [src]='product.imageUrl'
+               [title]='product.applicationName'>
+        </div>
+      </div>
+    </div>
+  
+    <div class='card-footer'>
+      <button class='btn btn-outline-secondary'
+              style='width:80px'
+              (click)='onBack()'>
+        <i class='fa fa-chevron-left'></i> Back
+      </button>
+    </div>
+  </div>
